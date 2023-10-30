@@ -12,7 +12,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->command('fuel:track-price')->everyFifteenMinutes();
+        $schedule->command('fuel:track-price')->everyFiveMinutes();
         // $schedule->command('inspire')->hourly();
     }
 
